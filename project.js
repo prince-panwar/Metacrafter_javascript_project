@@ -16,10 +16,12 @@ function mintNFT(name,color,symbol){
 //function to list all NFTs
 function listNFT(){
     for(let i=0;i<NFTs.length;i++){
-        console.log("ID:\t"+(i+1));
+        console.log("");
+        console.log("ID:\t\t"+(i+1));
         console.log("Name:\t"+NFTs[i].name);
         console.log("Color:\t"+NFTs[i].color);
         console.log("Symbol:\t"+NFTs[i].symbol);
+        console.log("");
     }
 }
 
